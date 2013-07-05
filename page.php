@@ -8,7 +8,7 @@
 	if(!empty($to) && !sendMail($to, $subject, $message)){
 		$error = "Please check your email address!";
 	}else{
-		//redirect
+		//email sent => redirect
 	}
 	
 ?>
@@ -23,7 +23,7 @@
 <body>
 	<div id="logo">
 	</div>
-	<div content>
+	<div id="content">
 		<iframe width="420" height="315" src="//www.youtube.com/embed/qDO6HV6xTmI" frameborder="0" allowfullscreen></iframe>
 		<p>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in feugiat sapien. Pellentesque eget tincidunt lacus, sit amet laoreet nulla. Proin et urna vulputate, varius augue ac, venenatis quam. Sed laoreet posuere metus ut sodales. Sed vestibulum enim eget purus luctus, eu dignissim tortor consequat. Aliquam dignissim, nibh in molestie imperdiet, erat odio pharetra arcu, vel luctus neque orci vel urna. Praesent eleifend eros ut rutrum viverra. Nunc sed pulvinar nibh.
